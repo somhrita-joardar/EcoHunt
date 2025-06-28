@@ -20,13 +20,13 @@ EcoHunt helps you live a greener life through gamification. With EcoHunt, you ca
    ```bash
    git clone https://github.com/Sayak4g/EcoHunt.git
    cd EcoHunt/client
-Install Dependencies
+3. **Install Dependencies**
 
 bash
 Copy
 Edit
 npm install
-Start the Development Server
+4. **Start the Development Server**
 
 bash
 Copy
