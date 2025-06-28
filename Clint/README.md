@@ -1,12 +1,35 @@
-# React + Vite
+# EcoHunt
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Gamify Your Green Habits – EcoHunt is a sustainability-focused web app that turns eco-friendly actions into an exciting and competitive game. Users can log their green activities, earn rewards, and connect with a like-minded community.
 
-Currently, two official plugins are available:
+## 🌱 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+EcoHunt helps you live a greener life through gamification. With EcoHunt, you can:
 
-## Expanding the ESLint configuration
+- Track your eco-friendly actions
+- Connect and compete with friends
+- Earn badges, climb leaderboards, and make a positive environmental impact
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 💻 How to Run Locally
+
+1. **Install Node.js**
+   - [Download from Node.js (LTS version)](https://nodejs.org)
+
+2. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Sayak4g/EcoHunt.git
+   cd EcoHunt/client
+Install Dependencies
+
+bash
+Copy
+Edit
+npm install
+Start the Development Server
+
+bash
+Copy
+Edit
+npm run dev
+
