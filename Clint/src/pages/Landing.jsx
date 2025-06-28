@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Landing = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-green-50 text-gray-900 font-sans">
       {/* Navbar */}
@@ -10,11 +12,23 @@ const Landing = () => {
           <a href="#about" className="hover:text-green-600">About</a>
           <a href="#features" className="hover:text-green-600">Features</a>
           <a href="#community" className="hover:text-green-600">Community</a>
-          <button className="bg-green-500 text-white px-4 py-1 rounded-full hover:bg-green-600">
+          <button
+            className="bg-green-500 text-white px-4 py-1 rounded-full hover:bg-green-600"
+            onClick={() => navigate('/register')}
+          >
             Register
           </button>
-          <button className="border border-green-500 px-4 py-1 rounded-full hover:bg-green-100">
+          <button
+            className="border border-green-500 px-4 py-1 rounded-full hover:bg-green-100"
+            onClick={() => navigate('/login')}
+          >
             Login
+          </button>
+          <button
+            className="bg-green-400 text-white px-4 py-1 rounded-full hover:bg-green-500"
+            onClick={() => navigate('/mission')}
+          >
+            Missions
           </button>
         </div>
       </nav>
@@ -36,8 +50,17 @@ const Landing = () => {
               Earn points, badges, and compete with friends as you make a positive
               impact on the planet.
             </p>
-            <button className="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700">
+            <button
+              className="bg-green-600 text-white px-6 py-2 rounded-full hover:bg-green-700"
+              onClick={() => navigate('/register')}
+            >
               Get Started
+            </button>
+            <button
+              className="bg-green-400 text-white px-6 py-2 rounded-full hover:bg-green-500 ml-4"
+              onClick={() => navigate('/mission')}
+            >
+              Explore Missions
             </button>
           </div>
         </div>
